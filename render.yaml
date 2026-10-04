@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: hindsight
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/runs
+    envVars:
+      - key: HINDSIGHT_WATCH
+        value: "0"
+      - key: HINDSIGHT_DB
+        value: /tmp/hindsight.db
