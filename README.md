@@ -2,7 +2,7 @@
 
 Log-based intrusion detection that does not just raise alerts: it groups related events into **incidents**, reconstructs the **attack story** across kill-chain stages (mapped to MITRE ATT&CK), shows the **raw log lines as evidence**, explains in **plain English** what happened and what to do, and lists the **look-alikes it deliberately cleared**. Built for ALGOTHON'26 problem **ALG-CYBER-01 (Find the Intruder)**.
 
-**Live demo:** https://github.com/kashish17890/Hindsight-IDS.git  (free tier: the first load may take about a minute to wake up; click **Try the demo dataset**)
+**Live demo:** https://hindsight-7ckg.onrender.com  (free tier: the first load may take about a minute to wake up; click **Try the demo dataset**)
 **Author:** Kashish Verma (solo participant)
 
 ![Architecture](docs/architecture.svg)
